@@ -11,7 +11,7 @@ class Point(var x: Int, var y: Int) {
 //The driver class
 object workingWithAClass {
     def main(args: Array[String]) ={
-        val pt = new Point(10, 20); //Instantiating an object
+        val pt = new Point(10, 10); //Instantiating an object
         // Move to a new location
         pt.move(10, 10);
     }
