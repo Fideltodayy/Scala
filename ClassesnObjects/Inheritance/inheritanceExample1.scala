@@ -23,10 +23,11 @@ class Location(override val xc: Int, override val yc: Int,
 }
 object InheritanceExample1 {
     def main(args: Array[String])= {
-        val p = new Point(10,10);
-        p.move(10,10);
+
         val loc = new Location(10, 20, 15);
         // Move to a new location
         loc.move(10, 10, 5);
+                val p = new Point(10,10);
+        p.move(10,10);
     }
 }
