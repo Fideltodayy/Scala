@@ -1,6 +1,6 @@
-class Point(xc: Int, yc: Int) {
-    var x: Int = xc
-    var y: Int = yc
+class Point(var x: Int, var y: Int) {
+    // var x: Int = xc
+    // var y: Int = yc
     def move(dx: Int, dy: Int) ={
         x = x + dx
         y = y + dy
